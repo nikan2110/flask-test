@@ -1,3 +1,4 @@
 /utils
 /.venv
 /__pycache__
+/test.py
