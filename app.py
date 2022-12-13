@@ -1,9 +1,12 @@
 from flask import Flask
+import logging
 
 from utils.Constants import CONTROLLER, REPOSITORY
 
 # Init app
 app = Flask(__name__)
+
+logging.basicConfig(format='%(asctime)s %(message)s %(filename)s',level=logging.INFO)
 
 
 # Run Server
